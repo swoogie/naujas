@@ -117,3 +117,23 @@ su deque
 | 10000   | 0.403376 s| 0.138126 s| 0.541502 s|
 | 100000  | 4.09773 s | 13.9747 s | 18.07243 s|
 | 1000000 | 40.9181 s | 0.062056 s| 40.980156s|
+
+V1.1-----
+
+Naudojamos klases. Klases lyginamos su strukturomis
+
+su klase
+| Dydis   | Skaitymas | Rusiavimas|    Total  |
+|---------|-----------|-----------|-----------|
+| 1000    |
+| 10000   |
+| 100000  |
+| 1000000 |
+
+su vektorium
+| Dydis   | Skaitymas | Rusiavimas|    Total  |
+|---------|-----------|-----------|-----------|
+| 1000    |
+| 10000   |
+| 100000  |
+| 1000000 |

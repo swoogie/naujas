@@ -5,7 +5,6 @@
 
 int main()
 {   
-
     vector<studentoSt> studentas;
     skaitymas(studentas,0);
     sortedIsvedimas(studentas);

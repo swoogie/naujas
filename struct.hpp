@@ -11,11 +11,31 @@ class studentoSt
     double avgRez;
 
     public: 
-    studentoSt(); // constr
-    studentoSt(const studentoSt&); // copy constr
-    studentoSt operator=(const studentoSt& oth); // assign
-    ~studentoSt(); // dest
+    studentoSt() // constr
+    {
+    this->vardas = "";
+    this->pavarde = "";
+    this->medRez = 0;
+    this->avgRez = 0;
+    }
+    studentoSt(const studentoSt& oth) // copy constr
+    {
+    this->vardas = oth.vardas;
+    this->pavarde = oth.pavarde;
+    this->medRez = oth.medRez;
+    this->avgRez = oth.avgRez;
+    }
+    studentoSt operator=(const studentoSt& oth) // assign
+    {
+    this->vardas = oth.vardas;
+    this->pavarde = oth.pavarde;
+    this->medRez = oth.medRez;
+    this->avgRez = oth.avgRez;
 
+    return *this;
+    }
+    ~studentoSt() // dest
+    {}
     //getter
     string getVardas(){
         return vardas;
@@ -49,33 +69,4 @@ class studentoSt
     }
 
 };
-
-studentoSt::studentoSt() // constr
-{
-    this->vardas = "";
-    this->pavarde = "";
-    this->medRez = 0;
-    this->avgRez = 0;
-}
-
-studentoSt::studentoSt(const studentoSt& oth) // copy constr
-{
-    this->vardas = oth.vardas;
-    this->pavarde = oth.pavarde;
-    this->medRez = oth.medRez;
-    this->avgRez = oth.avgRez;
-}
-
-studentoSt studentoSt::operator=(const studentoSt& oth) // assign
-{
-    this->vardas = oth.vardas;
-    this->pavarde = oth.pavarde;
-    this->medRez = oth.medRez;
-    this->avgRez = oth.avgRez;
-
-    return *this;
-}
-
-studentoSt::~studentoSt() {} // dest
-
 #endif

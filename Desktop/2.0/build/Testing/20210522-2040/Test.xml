@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20210522-2040-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.20.2"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="swogon"
+	OSRelease=" Professional"
+	OSVersion=" (Build 19041)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="15"
+	ModelID="1"
+	ProcessorCacheSize="64"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="18510"
+	TotalPhysicalMemory="16334"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3600"
+	>
+	<Testing>
+		<StartDateTime>May 22 23:40 FLE Daylight Time</StartDateTime>
+		<StartTestTime>1621716015</StartTestTime>
+		<TestList>
+			<Test>./test/Tests</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>Tests</Name>
+			<Path>./test</Path>
+			<FullName>./test/Tests</FullName>
+			<FullCommandLine>C:\Users\swogon\Desktop\Naujas2.0\build\test\Debug\Tests.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0352621</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\Users\swogon\Desktop\Naujas2.0\build\test\Debug\Tests.exe</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNUj1PwzAQ3fMrbmyGWG3YkBgQRQyVCkrpFEfIpMYy+KPy2a3EryeJq9CQpuIW38e7d+90LoIx0gjQTJpZCh/Oani4pVvkDikerbCGLjl+ebunaxY+GeZkToW1QnHP0Z+76GoqWu+tZSN1nZR3vVVQnEbdQIvBOCvvAsAgm5ckZdZbBU/KvjMVAdwcpLNGc9OAuc/C/g94EXEdaa0Y4msTJiUU2zV0Vv2mybe2IqCPiGjPqwkEzOagMf3HtIgEbz1TaTJsyM+X9iNpbYYIpoKXRuJB7oa6RuVe1DSJ5ldJmvLFzUZCr201dSHPmct29miGP2D68uCYIcNJjfaX+83mcdmuduokyQ8X4thB====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>May 22 23:40 FLE Daylight Time</EndDateTime>
+		<EndTestTime>1621716015</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

@@ -2,7 +2,9 @@
 Pazymiu programa
 Paleidimo instrukcija:
 1. paleisti programSetup
+
 -arba-
+
 1. Atidaryti failą su VSCode ar bet kuriuo kitu IDE
 2. Terminale nusinaviguoti iki programos direktorijos
 3. Į terminalą rašyti "mingw32-make main"

@@ -1,7 +1,7 @@
 # naujas
 Pazymiu programa
 Paleidimo instrukcija:
-1. paleisti programSetup
+1. paleisti ProjectSetup2.0.msi
 
 -arba-
 

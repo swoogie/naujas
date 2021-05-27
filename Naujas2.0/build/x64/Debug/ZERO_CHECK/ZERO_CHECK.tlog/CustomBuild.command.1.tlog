@@ -1,0 +1,10 @@
+^C:\USERS\SWOGON\DESKTOP\NAUJAS2.0\BUILD\CMAKEFILES\D39DDAC8A3D3D5C6547FAE4F43B44A86\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/swogon/Desktop/Naujas2.0 -BC:/Users/swogon/Desktop/Naujas2.0/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/swogon/Desktop/Naujas2.0/build/Naujas2.0.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

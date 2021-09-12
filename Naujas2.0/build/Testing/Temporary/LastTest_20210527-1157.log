@@ -1,0 +1,36 @@
+Start testing: May 27 14:57 FLE Daylight Time
+----------------------------------------------------------
+1/1 Testing: Tests
+1/1 Test: Tests
+Command: "C:/Users/swogon/Desktop/Naujas2.0/build/test/Debug/Tests.exe"
+Directory: C:/Users/swogon/Desktop/Naujas2.0/build/test
+"Tests" start time: May 27 14:57 FLE Daylight Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\swogon\Desktop\Naujas2.0\googletest\googletest\src\gtest_main.cc
+[==========] Running 3 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from classTest
+[ RUN      ] classTest.zmogustest
+[       OK ] classTest.zmogustest (0 ms)
+[----------] 1 test from classTest (0 ms total)
+
+[----------] 2 tests from test
+[ RUN      ] test.galutinisvid
+[       OK ] test.galutinisvid (0 ms)
+[ RUN      ] test.galutinismed
+[       OK ] test.galutinismed (0 ms)
+[----------] 2 tests from test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"Tests" end time: May 27 14:57 FLE Daylight Time
+"Tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 27 14:57 FLE Daylight Time
